@@ -8,6 +8,7 @@ When a new variable is created without a type, it will use the values direct typ
 Can optionally use a Type. If a type is assigned, the value must fit within the type bounds
 
 ####Assignment Direction
+
 | Direction | Description |
 | --------- | ----------- |
 | `>` | Returns the old value |
@@ -25,6 +26,10 @@ Can optionally use a Type. If a type is assigned, the value must fit within the 
 | `%` | Mod from | Number |
 | `!` | Invert | Boolean |
 
+Errors
+
+* Attempting to assign noVal
+* Assigning the wrong Type
 
 ```
 
