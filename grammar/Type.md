@@ -7,6 +7,7 @@
 | Int | A non floating point number |
 | Double | A floating point number |
 | String | A list of characters |
+| Byte | 8 unsigned bits |
 
 #### Optionality
 No Type on it's own can nullable. Postfix any type with a `?` to allow null to be assigned.

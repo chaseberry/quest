@@ -4,9 +4,9 @@ class Name {
 
     [cn [Name](arg) {}]
 
-    [def name[:Type] [= Value]]
+    [Variables]
 
-    []
+    [Function]
 }
 ```
 

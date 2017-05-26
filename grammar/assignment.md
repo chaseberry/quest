@@ -7,14 +7,14 @@ expression|value AssignModifierAssignDirection name[:Type]
 When a new variable is created without a type, it will use the values direct type
 Can optionally use a Type. If a type is assigned, the value must fit within the type bounds
 
-####Assignment Direction
+#### Assignment Direction
 
 | Direction | Description |
 | --------- | ----------- |
 | `>` | Returns the old value |
 | `<` | Returns the new value |
 
-####Assignment Modifiers
+#### Assignment Modifiers
 
 | Modifier | Description | Allowed Target |
 | -------- | ----------- | -------------- |

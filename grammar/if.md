@@ -20,4 +20,4 @@ The value inside the parenthesis will be called the Control
 | --------- | ----------- |
 | `Value` |  |
 | `Expression` |  |
-| `Control.function()` |  |
+| `.function()` |  |
