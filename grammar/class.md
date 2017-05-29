@@ -18,7 +18,9 @@ class Point{
     def x: Double = 0
     def y: Double = 0
 
-
+    fn distance(p: Point):Double{
+        
+    }
 }
 
 Point(x:15, y:22) => p1
