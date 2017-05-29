@@ -26,11 +26,6 @@ Can optionally use a Type. If a type is assigned, the value must fit within the 
 | `%` | Mod from | Number |
 | `!` | Invert | Boolean |
 
-#### Errors
-
-* Attempting to assign noVal
-* Assigning the wrong Type
-
 ```
 
 5 => temp //noVal (temp = 5)
@@ -43,3 +38,13 @@ Can optionally use a Type. If a type is assigned, the value must fit within the 
 
 ```
 
+#### Errors
+
+* Assigning the wrong Type
+
+```
+
+5 => temp
+"hello" => temp // ERR - Wrong Type
+
+```

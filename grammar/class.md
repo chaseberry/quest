@@ -6,12 +6,23 @@ class Name {
 
     [Variables]
 
-    [Function]
+    [Functions]
 }
-```
 
 ```
 
+```
+
+class Point{
+
+    def x: Double = 0
+    def y: Double = 0
+
+
+}
+
+Point(x:15, y:22) => p1
+Point() => p2
 
 
 ```
