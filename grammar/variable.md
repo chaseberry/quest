@@ -24,5 +24,6 @@ def x: Int
 #### Indirect
 
 `Literal|Expression Assignment name[: Type]`
+* Uses the default scopes defined in [Direct](#direct)
 * Uses the type of the Literal | Expression unless a type is provided.
 * If a type is given, the Literal | Expression must be or support the given type
