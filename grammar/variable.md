@@ -13,11 +13,14 @@
 * If no scope is given the variable will have a scope of `local` when outside a class
 and `public?` when inside a class
 
+#### Indirect
+
+`expression|literal assignment name`
+
 ##### Setters and Getters
 
 Direct variables can have custom setters and getters. By default they simply get/set.
 ```
-
 def x: Int
 
 ```

@@ -1,7 +1,7 @@
 ```
 
-if [ (expression) ] {
-    [ Value | BooleanExpression -> Statement | Block ]...
+if [ (expression|Literal) ] {
+    [ Literal | BooleanExpression -> Statement | Block ]...
     [ else -> Statement | Block ]
 }
 
