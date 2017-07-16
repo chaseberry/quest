@@ -8,7 +8,7 @@
 
 #### Direct
 
-`def [Scope] name[:Type][= Default Value]`
+`def [Scope] name[:Type][= Default Literal]`
 * If no type is given the variable will have a type of `Any?`
 * If no scope is given the variable will have a scope of `local` when outside a class
 and `public?` when inside a class
@@ -27,6 +27,6 @@ def x: Int
 
 #### Indirect
 
-`value|expr Assignment name[: Type]`
-* Uses the type of the value|expr unless a type is provided.
-* If a type is given, the value|expr must be or support the given type
+`Literal|Expression Assignment name[: Type]`
+* Uses the type of the Literal | Expression unless a type is provided.
+* If a type is given, the Literal | Expression must be or support the given type

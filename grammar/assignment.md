@@ -1,6 +1,6 @@
 ```
 
-expression|value AssignModifierAssignDirection name[:Type]
+Literal | Expression AssignModifierAssignDirection name[:Type]
 
 ```
 

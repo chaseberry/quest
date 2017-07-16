@@ -1,6 +1,6 @@
 ```
 
-if [ (expression|Literal) ] {
+if [ (Literal | Expression) ] {
     [ Literal | BooleanExpression -> Statement | Block ]...
     [ else -> Statement | Block ]
 }
