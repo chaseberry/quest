@@ -8,7 +8,7 @@
 
 #### Direct
 
-`def [Scope] name[:Type][= Default Literal]`
+`def [Scope] name[:Type][= DefaultLiteral]`
 * If no type is given the variable will have a type of `Any?`
 * If no scope is given the variable will have a scope of `local` when outside a class
 and `public?` when inside a class
