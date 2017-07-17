@@ -20,7 +20,6 @@ Direct variables can have custom setters and getters. By default they simply get
 def x: Int
     [get {}]
     [set[(name)]{}]
-
 ```
 
 * The value of the variable inside the setter/getter can be accessed as `$`
