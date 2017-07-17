@@ -18,8 +18,20 @@ and `public?` when inside a class
 Direct variables can have custom setters and getters. By default they simply get/set.
 ```
 def x: Int
+    [get {}]
+    [set[(name)]{}]
 
 ```
+
+* The value of the variable inside the setter/getter can be accessed as `$`
+* `$` Can be used as a normal variable within its scope
+
+###### Getter
+* Must return a value fitting within the type bounds of the variable
+
+###### Setter
+* Must take a value matching the type of the variable
+* Default parameter name is `value`
 
 #### Indirect
 
