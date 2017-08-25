@@ -1,0 +1,10 @@
+fn main{
+    readInt() => x
+    println("x is {x}")
+
+    5 -> x// x - 5 => x
+    println(x)
+
+    2 *> x => y//x * 2 => x => y
+    println("x was {y} now it's {x}")
+}

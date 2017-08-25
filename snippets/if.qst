@@ -1,0 +1,22 @@
+fn main{
+    5 => x
+
+    //simple if
+    if(x == 5){
+        println("x is 5!")
+        else { println("x is not 5!") }
+    }
+
+
+
+
+    //complex if
+    if (x) {
+        0 { println("x is 0!") }
+        0 < x <= 10 { println("x is (0, 10]!") }
+        else { println("x is greater than 10!") }
+    }
+
+
+
+}
