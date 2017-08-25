@@ -24,6 +24,7 @@ Can optionally use a Type. If a type is assigned, the value must fit within the 
 | `*` | Multiply into | Number |
 | `/` | Divide into | Number |
 | `%` | Mod from | Number |
+| `^` | To the Power Of | Number |
 | `!` | Invert | Boolean |
 
 ```
